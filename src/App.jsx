@@ -20,12 +20,13 @@ export default function App() {
 
       {/* Center */}
       <div className="center">
-        <img
-          src="https://upload.wikimedia.org/wikipedia/commons/2/2f/Google_2015_logo.svg"
-          alt="google"
-        />
+        <h1 className="logo">Google</h1>
 
-        <input type="text" placeholder="Search Google or type a URL" />
+        <div className="search-box">
+          <span className="icon">🔍</span>
+          <input type="text" placeholder="Search Google or type a URL" />
+          <span className="icon">🎤</span>
+        </div>
 
         <div className="buttons">
           <button>Google Search</button>
@@ -40,11 +41,13 @@ export default function App() {
       {/* Footer */}
       <div className="footer">
         <div>India</div>
-        <div className="footer-links">
+        <div className="links">
           <span>Advertising</span>
           <span>Business</span>
+          <span>How Search works</span>
           <span>Privacy</span>
           <span>Terms</span>
+          <span>Settings</span>
         </div>
       </div>
 
