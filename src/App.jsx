@@ -1,27 +1,53 @@
-import Header from './components/Header'
-import SearchBar from './components/SearchBar'
-import Buttons from './components/Buttons'
-import Footer from './components/Footer'
 import './App.css'
 
-function App() {
+export default function App() {
   return (
-    <div className="app">
-      <Header />
+    <div className="page">
 
+      {/* Top bar */}
+      <div className="top">
+        <div className="left">
+          <span>About</span>
+          <span>Store</span>
+        </div>
+
+        <div className="right">
+          <span>Gmail</span>
+          <span>Images</span>
+          <button>Sign in</button>
+        </div>
+      </div>
+
+      {/* Center */}
       <div className="center">
         <img
-          src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png"
+          src="https://upload.wikimedia.org/wikipedia/commons/2/2f/Google_2015_logo.svg"
           alt="google"
         />
 
-        <SearchBar />
-        <Buttons />
+        <input type="text" placeholder="Search Google or type a URL" />
+
+        <div className="buttons">
+          <button>Google Search</button>
+          <button>I'm Feeling Lucky</button>
+        </div>
+
+        <p className="lang">
+          Google offered in: हिन्दी বাংলা తెలుగు मराठी
+        </p>
       </div>
 
-      <Footer />
+      {/* Footer */}
+      <div className="footer">
+        <div>India</div>
+        <div className="footer-links">
+          <span>Advertising</span>
+          <span>Business</span>
+          <span>Privacy</span>
+          <span>Terms</span>
+        </div>
+      </div>
+
     </div>
   )
 }
-
-export default App
