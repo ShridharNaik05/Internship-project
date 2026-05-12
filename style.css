@@ -1,0 +1,145 @@
+
+
+body{
+    background-color: white;
+    padding: 20px;
+}
+
+.container{
+    width: 90%;
+    margin: auto;
+    background-color: rgb(135, 223, 223);
+    padding: 15px;
+    border-bottom: 2px solid black;
+}
+
+.box1{
+    width: 90%;
+    margin: auto;
+    background-color: rgb(231, 251, 251);
+    padding: 15px;
+    text-align: center;
+}
+
+.box2{
+    width: 90%;
+    margin: auto;
+    background-color: rgb(245, 235, 215);
+    padding: 15px;
+    border: 2px solid black;
+    text-align: center;
+}
+
+.nav{
+   height:30px;
+   background-color: rgb(71, 199, 199);
+   border: 2px solid black;
+   margin-top: 10px;
+   line-height: 30px;
+}
+
+
+.container2{
+    width: 90%;
+    margin: 20px auto;
+    display: flex;
+    gap: 20px;
+}
+
+
+
+.section{
+    flex: 3;
+    background-color: rgb(217, 241, 217);
+    border: 2px solid black;
+    padding: 15px;
+}
+
+.section-header{
+    background-color: white;
+    border: 1px solid black;
+    text-align: center;
+    padding: 10px;
+    margin-bottom: 15px;
+}
+
+
+.article{
+    background-color: rgb(244, 206, 206);
+    border: 2px solid black;
+    padding: 15px;
+}
+
+.article-header{
+    background-color: white;
+    border: 1px solid black;
+    text-align: center;
+    padding: 10px;
+    margin-bottom: 15px;
+}
+
+.p1{
+    height: 120px;
+    background-color: rgb(220, 204, 236);
+    border: 1px solid black;
+    text-align: center;
+    line-height: 120px;
+    margin-bottom: 15px;
+}
+
+
+.box4{
+    display: flex;
+    gap: 15px;
+    margin-bottom: 15px;
+}
+
+.p2{
+    flex:1;
+    height: 150px;
+    background-color: rgb(220, 204, 236);
+    border: 1px solid black;
+    text-align: center;
+    line-height: 150px;
+}
+
+.aside{
+    flex: 1;
+    height: 150px;
+    background-color: rgb(244, 232, 184);
+    border: 1px solid black;
+    text-align: center;
+    line-height: 150px;
+}
+
+
+.footer{
+    background-color: rgb(191, 235, 125);
+    border: 1px solid black;
+    text-align: center;
+    padding: 15px;
+}
+
+
+.container3{
+    flex: 1;
+    background-color: rgb(245, 227, 199);
+    border: 2px solid black;
+    padding: 15px;
+}
+
+.right-header{
+    background-color: white;
+    border: 1px solid black;
+    text-align: center;
+    padding: 10px;
+    margin-bottom: 15px;
+}
+
+.right-nav{
+    height: 400px;
+    background-color: rgb(178, 205, 244);
+    border: 1px solid black;
+    text-align: center;
+    line-height: 400px;
+}
